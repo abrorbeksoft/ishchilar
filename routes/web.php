@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagerController@index');
+Route::get('/{id}', 'PagerController@xodimlar');
 
 Auth::routes();
 
