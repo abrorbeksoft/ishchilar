@@ -11,8 +11,18 @@
 |
 */
 
+<<<<
+<<< Updated upstream
 Route::get('/', 'PagerController@index');
 Route::get('/{id}', 'PagerController@xodimlar');
+=======
+Route::get('/','BolimController@index');
+Route::get('bolimlar','BolimController@show')->name('viloyat');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+>>>>>>> Stashed changes
 
 Auth::routes();
 

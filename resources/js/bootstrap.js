@@ -11,8 +11,20 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
+<<<<<<<
+    Updated
+    upstream
 } catch (e) {
 }
+======
+=
+} catch
+(e)
+{
+}
+>>>>>>>
+Stashed
+changes
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
